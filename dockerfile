@@ -1,5 +1,5 @@
 FROM ubuntu 
-MAINTAINER demousr@gmail.com 
+MAINTAINER testusr@gmail.com 
 
 RUN apt-get update 
 RUN apt-get install –y nginx 
