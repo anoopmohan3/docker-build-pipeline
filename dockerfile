@@ -1,5 +1,6 @@
 FROM ubuntu 
-RUN apt-get update  
-Run apt-get install  -y vim
+MAINTAINER demousr@gmail.com 
+
+RUN apt-get update 
 RUN apt-get install –y nginx 
 CMD [“echo”,”Image created”]
